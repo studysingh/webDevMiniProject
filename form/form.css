@@ -1,0 +1,24 @@
+form{
+    height: 200px;
+    width: 400px;
+    background-color: azure;
+    border: 2px solid black;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    text-align: center;
+}
+#password , #username{
+    height: 55px;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+#btn{
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+a{
+    color: green;
+}

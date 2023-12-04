@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="forum.css">
+</head>
+<body>
+    <form>
+        <div>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" required="">
+        </div>
+        <div>
+            <label for="age">Age</label><br>
+            <input type="number" id="age" required="">
+        </div>
+        <div>
+            <label for="pass">Password</label><br>
+            <input type="password" id="passwod" required="">
+        </div>
+        <div>
+            <input type="submit" id="sbmt" value="SUBMIT">
+            <!-- <button id="sbmt">SUBMIT</button> -->
+        </div>
+    </form>
+</body>
+<script>
+    let name = document.querySelector("#name");
+    let age = document.querySelector("#age");
+    let passwod = document.querySelector("#passwod");
+    let btn = document.querySelector("#sbmt");
+    let form = document.querySelector("form");
+    btn.addEventListener("click" , function() {
+        let pass_value = passwod.value;
+        let age_value = age.value;
+        let name_value = name.value;
+        if(pass_value!="" && name_value!="" && age_value!=""){
+            localStorage.setItem(name_value , pass_value);
+        form.innerHTML = `Your data has been submitted successfully! <br> <a href="form.html"> Login Now </a>`;
+        }
+    })
+</script>
+</html>

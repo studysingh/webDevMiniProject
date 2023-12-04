@@ -1,0 +1,72 @@
+#main{
+    width: 400px;
+    height: 400px;
+    background-image: url('images/table.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    box-shadow: 5px 5px 5px 1px green;
+}
+#heading{
+    color: goldenrod;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+#myName{
+    float: left;
+    left: 20px;
+    color: rgb(251, 230, 7);
+    font-weight: bold;
+    font-size: 16px;
+}
+#score{
+    float: right;
+    position: relative;
+    right: 20px;
+    color: rgb(251, 230, 7);
+    font-weight: bold;
+    font-size: 16px;
+}
+#asking{
+    font-size: 25px;
+    margin: 10px;
+}
+#cardNo{
+    font-size: 20px;
+    margin: 2px;
+}
+#cardSum{
+    font-size: 20px;
+    margin: 2px;
+}
+#starting{
+    margin-top: 2%;
+}
+button{
+    width: 150px;
+    background-color: rgb(231, 172, 36);
+    color: green;
+    font-weight: 800;
+    font-size: 15px;
+    margin: 2px;
+    padding: 5px;
+}
+button:hover{
+    height: 40px;
+    width: 160px;
+    border-radius: 10px;
+}
+#onRestart{
+    color: gold;
+    text-align: center;
+    position: absolute;
+    top: 120px;
+    font-size: 50px;
+}
+#onRestart a{
+    color: white;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form>
+        <div id="username">
+            <label for="user" id="user">Username</label><br>
+            <input type="text" id="usr" required="">
+        </div>
+        <div id="password">
+            <label for="passw" id="password">Password</label><br>
+            <input type="password" id="passwd" required="">
+        </div>
+        <div id="btn">
+            <button>Submit</button>
+        </div>
+        <div>
+            <a href="forum.html" target="_blank">Create Account</a>
+        </div>
+    </form>
+</body>
+<script>
+    // matches
+    let b = document.querySelector("form");
+    let c = b.querySelectorAll("div")[0];
+    console.log(c.matches('#username'));
+    // let form = document.querySelector("form");
+    // let usr = document.querySelector("#usr");
+    // let passwd = document.querySelector("#passwd");
+    // let btn = document.querySelector("#btn");
+    // btn.addEventListener("click" , function() {
+    //     let username = usr.value;
+    //     let password = passwd.value;
+    //     if(username!="" && password!=""){
+    //         let pass_stored = localStorage.getItem(username);
+    //         if(password == pass_stored){
+    //         form.textContent = "You have logged in successfully !";
+    //         } else{
+    //             form.innerHTML = "Username or Password is invalid <br>";
+    //             form.innerHTML += `<a href="form.html">Try Again</a>`;
+
+    //         }
+    //     }
+    // })
+</script>
+</html>

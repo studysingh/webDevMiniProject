@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Jack</title>
+    <link rel="stylesheet" href="blackjack.css">
+</head>
+<body>
+    <div id="main">
+        <div id="endRemain">
+            <div id="heading">Blackjack</div>
+            <div id="myName">Name : </div>
+            <div id="score">$0</div><br>
+            <p id="onRestart"></p>
+        </div>
+        <div id="endDisappear">
+            <div id="asking">Want to play a round ?</div>
+            <div id="cardNo">Cards : </div>
+            <div id="cardSum">Sum : </div>
+            <button id="starting" onclick="startGame()">START GAME</button><br>
+            <button id="pickingCard" onclick="newCard()">NEW CARD</button><br>
+            <button id="quit" onclick="replay()">REPLAY</button><br>
+            <p id="life"></p>
+        </div>
+    </div>
+    <script type="text/javascript" src="blackjack.js"></script>
+</body>
+</html>

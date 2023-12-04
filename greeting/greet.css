@@ -1,0 +1,32 @@
+#main{
+    width: 250px;
+    height: 150px;
+    background-color: coral;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+#message{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(23,54,164);
+    margin: 10px;
+}
+#name{
+    background-color: blanchedalmond;
+    margin: 10px;
+    position: relative;
+    left: 50px;
+}
+#button{
+    margin: 10px;
+    background-color: rgb(212, 194, 121);
+    font-weight: 600;
+    font-size: 14px;
+    position: relative;
+    left: 90px;
+}

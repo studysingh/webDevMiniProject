@@ -1,0 +1,2 @@
+This form is using localStorage for storing the data .
+It verifies the data from the localStorage during login.
